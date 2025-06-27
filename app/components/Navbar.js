@@ -6,7 +6,6 @@ export default function Navbar() {
           <span className="ml-3 text-xl">Tailblocks</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          {/* Use <a> tags to link to sections within the page */}
           <a href="#about" className="mr-5 hover:cursor-pointer">
             About
           </a>

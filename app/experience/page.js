@@ -5,29 +5,38 @@ import { useState } from "react";
 export default function Page() {
   const data = [
     {
-      label: "HTML",
+      label: "Awaaltech (internship)",
       value: "html",
-      desc: `It really matters and then like it really doesn't matter...`,
+      desc: `Supported the front-end team in building responsive, user-friendly web interfaces using Html Css  and Bootstrap. Gained practical experience in integrating APIs, managing state, and collaborating in an Agile development environment.',
+      achievements: [
+       
+        'Implemented responsive layouts using  CSS, ensuring cross-device compatibility',
+        'Integrated front-end components with RESTful APIs to display dynamic data',
+        'Used Git and GitHub for version control and collaborated through pull requests and code reviews',
+        'Worked closely with UI/UX designers to translate mockups into functional interfaces`,
     },
     {
-      label: "React",
+      label: "Imobisoft (internship) ",
       value: "react",
-      desc: `Because it's about motivating the doers...`,
+      desc: ` Supported the front-end team in building responsive, user-friendly web interfaces using Html Css  and Bootstrap. Gained practical experience in integrating APIs, managing state, and collaborating in an Agile development environment.',
+      achievements: [
+       
+        'Implemented responsive layouts using  CSS, ensuring cross-device compatibility',
+        'Integrated front-end components with RESTful APIs to display dynamic data',
+        'Used Git and GitHub for version control and collaborated through pull requests and code reviews',
+        'Worked closely with UI/UX designers to translate mockups into functional interfaces,
+      ],
+`,
     },
     {
-      label: "Vue",
+      label: "Imobisoft (full-time)",
       value: "vue",
-      desc: `We're not always in the position that we want to be at...`,
-    },
-    {
-      label: "Angular",
-      value: "angular",
-      desc: `Because it's about motivating the doers...`,
-    },
-    {
-      label: "Svelte",
-      value: "svelte",
-      desc: `We're not always in the position that we want to be at...`,
+      desc: `Designed and implemented pixel-perfect user interfaces using React, ensuring alignment with UX/UI design standards. Focused on delivering seamless user experiences by optimizing responsiveness, accessibility, and usability across browsers and devices.',
+
+      achievements: [
+        'Enhanced app performance by optimizing rendering and implementing lazy loading strategies',
+        'Improved accessibility and WCAG compliance across the application',
+        'Collaborated with designers to translate complex Figma designs into pixel-perfect interfaces'`,
     },
   ];
 
